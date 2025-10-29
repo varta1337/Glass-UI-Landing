@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glass UI Landing</title>
+  <meta name="description" content="Simple glassmorphism landing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+
+    <div class="card">
+      <header class="header">
+        <div class="brand">fuse</div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </nav>
+        <div class="lang-dropdown">
+          <button class="lang-btn" aria-label="Select language">
+            EN <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <ul class="lang-menu">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ru">Русский</a></li>
+            <li><a href="#" data-lang="de">Deutsch</a></li>
+            <li><a href="#" data-lang="es">Español</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="hero">
+        <section class="copy">
+          <p class="eyebrow">Lorem Ipsum is simply dummy text</p>
+          <h1>GLASS<br />MORP<br />HISM</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <div class="cta">
+            <a class="btn primary" href="#">Get Started</a>
+            <a class="btn ghost" href="#">Watch video</a>
+          </div>
+        </section>
+
+        <section class="visual" aria-hidden="true">
+          <img class="logo-img" src="./logo.png" alt="Logo" />
+        </section>
+      </main>
+
+      <aside class="social" aria-label="social links">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
+
+
